@@ -1,0 +1,1 @@
+This is a great theme for Resort business. Nice design and advance options in WordPress.

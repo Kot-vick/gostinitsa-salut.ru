@@ -1,0 +1,852 @@
+html, body {
+  direction: rtl;
+}
+
+html[dir="rtl"] .top-bar.home3v .link-list ul li + li, html[dir="rtl"] .top-bar.dhomev .link-list ul li + li {
+  border-right: 1px solid #a4b6d1;
+  border-left: none;
+}
+html[dir="rtl"] .top-bar .link-list ul li + li {
+  padding-left: 0;
+  margin-left: 0;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+html[dir="rtl"] .top-bar .contact-infos ul li a i {
+  margin-right: 0;
+  margin-left: 6px;
+}
+html[dir="rtl"] .top-bar .contact-infos ul li + li {
+  margin-left: 0;
+  margin-right: 24px;
+}
+
+html[dir="rtl"] .side-menu .close-button {
+  right: auto;
+  left: 0;
+}
+html[dir="rtl"] .side-menu .subscribe-widget form input {
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+html[dir="rtl"] .navbar-header {
+  float: right;
+}
+html[dir="rtl"] #main-navigation-wrapper .dropdown-submenu > li > a {
+  text-align: right;
+}
+html[dir="rtl"] #main-navigation-wrapper .navbar-nav {
+  float: right;
+}
+html[dir="rtl"] #main-navigation-wrapper .navbar-nav > li > .dropdown-submenu.align-right {
+  left: 0;
+  right: auto;
+}
+html[dir="rtl"] .stricky-fixed .navbar-nav.right-side-nav {
+  padding: 25px 0;
+}
+html[dir="rtl"] #main-navigation {
+  float: left;
+}
+html[dir="rtl"] #main-navigation .right-side-nav > li {
+  padding: 43px 0;
+  float: right;
+}
+html[dir="rtl"] #main-navigation .right-side-nav > li:first-child > a {
+  border-right: 1px solid #a6a6a6;
+  border-left: none;
+  padding-left: 0;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+html[dir="rtl"] #main-navigation .right-side-nav > li + li > a {
+  padding-left: 0;
+}
+@media(max-width: 1199px) {
+  html[dir="rtl"] #main-navigation-wrapper .nav > li.open > .dropdown-menu li a::before {
+    content: "-";
+    margin-right: 0;
+    margin-left: 6px;
+  }
+}
+html[dir="rtl"] .final-inner-header .this-title::after {
+  margin-left: 0;
+  margin-right: 20px;
+}
+html[dir="rtl"] .final-breadcrumb .breadcrumb {
+  float: right;
+}
+html[dir="rtl"] .final-breadcrumb .breadcrumb li {
+  float: right;
+}
+
+html[dir="rtl"] .sec-header3 h3::after, html[dir="rtl"] .sec-header h3::after, html[dir="rtl"] .activities-content h2::after, html[dir="rtl"] .sec-header-small h2::after, html[dir="rtl"] .book-right h2::after, html[dir="rtl"] .contact-info h2::after, html[dir="rtl"] .family-content h2::after, html[dir="rtl"] .sec-header-touch h2::after, html[dir="rtl"] .sec-header-two h2::after, html[dir="rtl"] .room-suite-htwo .item .ro-txt h2::after, html[dir="rtl"] .wel-content h2::after, html[dir="rtl"] .fluid-know-area .service-promo .know-top h3::after, html[dir="rtl"] .single-sidebar-widget .sec-title h2::after, html[dir="rtl"] .offer-content h2::after, html[dir="rtl"] .our-table-cont h2::after, html[dir="rtl"] .room-wrapper .media-body h2::after, html[dir="rtl"] .single-room-wrapper .question-wrapper h2::after, html[dir="rtl"] .single-room-wrapper .room-overview h2::after, html[dir="rtl"] .single-room-wrapper .room-fac-wrapper h2::after, html[dir="rtl"] .single-room-wrapper .room-dec-wrapper h2::after, html[dir="rtl"] .room-t-wrapper .content h2::after, html[dir="rtl"] .m-traking .maount-content h3::after, html[dir="rtl"] .m-traking .maount-content h2::after {
+  margin: 0 12px 0 0;
+}
+
+html[dir="rtl"] .nasir-subscribe-form-row .input-group-addon {
+  padding: 0 30px 0 0;
+}
+html[dir="rtl"] .res-btn i {
+  margin-left: 0;
+  margin-right: 12px;
+}
+
+html[dir="rtl"] .testimonials-wrapper .item .test-bot .client_name {
+  float: right;
+}
+html[dir="rtl"] .testimonials-wrapper .item .test-bot .tst-img {
+  float: right;
+  margin: 0 0 0 1.5em;
+}
+html[dir="rtl"] .testimonial-p .media-left {
+  padding-right: 0;
+  padding-left: 60px;
+}
+@media(max-width: 1199px) {
+  html[dir="rtl"] .testimonial-p .media-body a, html[dir="rtl"] .testimonial-p .media-body h6 {
+    text-align: right;
+  }
+}
+html[dir="rtl"] .widget.get-in-touch ul li {
+  padding-right: 0;
+}
+html[dir="rtl"] .widget.get-in-touch ul li i {
+  float: right;
+}
+
+html[dir="rtl"] .book-left-content form .form-control.datepicker-example8 {
+  padding: 11px 35px 11px 20px;
+}
+html[dir="rtl"] .booknow .sec-header {
+  width: 65%;
+  float: left;
+}
+@media(max-width: 1199px) {
+  html[dir="rtl"] .booknow .sec-header {
+    width: 100%;
+  }
+}
+html[dir="rtl"] .contact-info .media-contact-icon {
+  float: right;
+}
+html[dir="rtl"] .contact-info .media-contact-info {
+  padding-left: 0;
+  padding-right: 73px;
+}
+html[dir="rtl"] .get-touch-wrapper .touch-img {
+  float: right;
+  margin-right: 0;
+  margin-left: 1em;
+}
+html[dir="rtl"] .get-touch-wrapper .touch-txt {
+  float: right;
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .get-touch-wrapper .touch-img {
+    margin-bottom: 30px;
+  }
+}
+html[dir="rtl"] .roomsuite-slider-two .owl-nav, html[dir="rtl"] .roomsuite-slider .owl-nav {
+  right: auto;
+  left: 0;
+}
+
+html[dir="rtl"] .rest-fact-counter .text-box2 {
+  padding-left: 0;
+  padding-right: 1em;
+}
+
+html[dir="rtl"] .our-event-t-wrapper .media-left {
+  padding-right: 0;
+  padding-left: 2em;
+}
+
+html[dir="rtl"] .fullwidth-slider.owl-carousel .owl-controls .owl-nav .owl-prev {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+html[dir="rtl"] .search-sec .form-control.datepicker-example8 {
+  padding: 6px 35px 6px 12px;
+}
+html[dir="rtl"] .search-sec button.Zebra_DatePicker_Icon_Inside {
+  margin: 0;
+}
+html[dir="rtl"] .nasir-home-search-block button.Zebra_DatePicker_Icon_Inside {
+  margin: 0 12px 0 0;
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .search-sec button.Zebra_DatePicker_Icon_Inside {
+    margin: 0 12px 0 0;
+  }
+}
+html[dir="rtl"] .nhs-caption6 a + a, html[dir="rtl"] .nhs-caption7 a + a {
+  margin-left: 0;
+  margin-right: 28px;
+}
+
+html[dir="rtl"] .our-res .tab-title-box ul li {
+  float: right;
+}
+
+html[dir="rtl"] .fluid-know-area .service-promo .promo-content {
+  padding: 4em 5em 2em 0;
+}
+html[dir="rtl"] .fluid-know-area .service-promo .know-bot ul li {
+  border-left: 1px dashed #6e6e6e;
+  border-right: none;
+}
+html[dir="rtl"] .fluid-know-area .service-promo .know-bot ul li:first-child {
+  padding-right: 0;
+  padding-left: 2.5em;
+}
+html[dir="rtl"] .fluid-know-area .service-promo .know-bot ul li:last-child {
+  padding-right: 2.5em;
+  padding-left: 0;
+  border-left: none;
+}
+@media(max-width: 1199px) {
+  html[dir="rtl"] .fluid-know-area .service-promo .promo-content {
+    padding: 0;
+  }
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .fluid-know-area .service-promo .know-bot ul li {
+    border-left: none;
+    width: 100%;
+    padding: 0;
+  }
+  html[dir="rtl"] .fluid-know-area .service-promo .know-bot ul li .about-img {
+    float: right;
+    margin: 0;
+  }
+  html[dir="rtl"] .fluid-know-area .service-promo .know-bot ul li .about-cont {
+    float: right;
+  }
+  html[dir="rtl"] .fluid-know-area .service-promo .know-bot ul li:first-child {
+    padding-left: 0;
+  }
+  html[dir="rtl"] .fluid-know-area .service-promo .know-bot ul li:last-child {
+    padding-right: 0;
+  }
+}
+html[dir="rtl"] .direction-lists {
+  float: right;
+}
+html[dir="rtl"] .bee-accordion .media-left {
+  padding-right: 0;
+  padding-left: 28px;
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .driving-direction .this-inner {
+    margin-right: 0;
+  }
+  html[dir="rtl"] .direction-lists li {
+    padding-right: 15px;
+  }
+  html[dir="rtl"] .direction-lists li + li {
+    padding-left: 15px;
+  }
+}
+html[dir="rtl"] .have-query .form-control {
+  float: right;
+  margin-right: 0;
+  margin-left: 30px;
+}
+@media(max-width: 1199px) {
+  html[dir="rtl"] .have-query .nhs-btn2 {
+    margin-top: 30px;
+  }
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .have-query .nhs-btn2 {
+    margin-top: 0;
+  }
+}
+html[dir="rtl"] .single-sidebar-widget .popular-post .content {
+  padding-left: 0;
+  padding-right: 30px;
+}
+@media(max-width: 1199px) {
+  html[dir="rtl"] .pull-left .single-sidebar-widget {
+    padding-right: 0;
+  }
+}
+html[dir="rtl"] .single-blog-post .meta-info .content-box .post-links li a {
+  padding-left: 30px;
+  padding-right: 0;
+}
+html[dir="rtl"] .single-blog-post .meta-info .content-box .post-links li a i {
+  margin-left: 10px;
+  margin-right: 0;
+}
+html[dir="rtl"] .comments .comment .media-left {
+  padding: 8px 5px 0px 30px;
+}
+html[dir="rtl"] .post-list li {
+  float: right;
+}
+
+html[dir="rtl"] .offer-b-main {
+  float: right;
+}
+@media(max-width: 1199px) {
+  html[dir="rtl"] .our-offer-left {
+    padding-right: 15px;
+  }
+}
+html[dir="rtl"] .tab-inner-cont .media .media-left {
+  padding-right: 0;
+  padding-left: 10px;
+}
+html[dir="rtl"] .tab-inner-cont .media .media-right {
+  padding-left: 0;
+  padding-right: 8em;
+}
+html[dir="rtl"] .table-form form .form-control.datepicker-example8 {
+  padding: 11px 40px 11px 20px;
+}
+html[dir="rtl"] .our-table-wrapper .table-form {
+  padding-left: 8em;
+}
+html[dir="rtl"] .our-table-wrapper button.Zebra_DatePicker_Icon {
+  right: 0;
+}
+@media(max-width: 1199px) {
+  html[dir="rtl"] .our-table-wrapper .table-form {
+    padding-left: 0;
+  }
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .tab-inner-cont .media .media-right {
+    padding-right: 0;
+  }
+}
+html[dir="rtl"] .sroom-sidebar .form-control.datepicker-example8 {
+  padding: 6px 35px 6px 12px;
+}
+html[dir="rtl"] .nroom-grid .this-title {
+  text-align: right;
+}
+html[dir="rtl"] .room-l-wrapper .content.left {
+  right: auto;
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .room-wrapper .media-right {
+    text-align: right;
+  }
+}
+@media(max-width: 1199px) {
+  html[dir="rtl"] .m-traking .maount-content {
+    padding-right: 0;
+  }
+}
+html[dir="rtl"] .nasir-contact-box .media .media-left {
+  padding-right: 0;
+  padding-left: 28px;
+}
+
+@media(max-width: 767px) {
+  html[dir="rtl"] .nasir-activity {
+    padding: 75px 15px;
+  }
+}
+
+
+/* Main rtl-css file for Resort theme*/
+
+
+html[dir="rtl"] .slick-track {
+    float: left;
+}
+html[dir="rtl"]  .col-md-offset-nw.vc_col-sm-4 {
+    width: 21.7%;
+}
+html[dir="rtl"] .fluid-know-area .service-promo .promo-content {
+    padding: 5em 7em 2.6em 0;
+}
+html[dir="rtl"] .spa-offer .img_holder .room-ad-cont {
+
+    float: right;
+}
+html[dir="rtl"] .fluid-know-area .work-image-ser {
+    float: right;
+}
+
+html[dir="rtl"] .nav.nav-justified{
+  padding:0;
+}
+
+html[dir="rtl"] .rtl-add-class.vc_col-sm-12 {
+    width: 67%;
+}
+html[dir="rtl"] .book-left-content span {
+
+    text-align: right;
+}
+
+
+html[dir="rtl"] .pads-aws-create {
+    text-align: right;
+}
+
+@media(max-width: 1024px) {
+html[dir="rtl"] .rtl-add-class.vc_col-sm-12 {
+    width: 100%;
+}
+}
+
+html[dir="rtl"] .my-float-condition{   float:right; }
+
+html[dir="rtl"] .responsive-button-980 {
+    text-align: right;
+}
+
+html[dir="rtl"] .rtl-position{
+  float:right;
+}
+html[dir="rtl"] .logo {
+    float: right;
+}
+html[dir="rtl"] .pad-left-minus {
+    direction: initial;
+}
+html[dir="rtl"] .main-menu-wrapper-two .nav-holder {
+    float: right !important;
+}
+html[dir="rtl"] .main-menu-wrapper-two .nav-header-right {
+        float: left;
+    }
+html[dir="rtl"] .main-menu-wrapper-two .nav-header-right > ul > li > button {
+      padding-right: 17px;
+}
+
+html[dir="rtl"] .pad-left-minus.col-md-9{
+  width:71%;
+}
+html[dir="rtl"] ul.main_menu_nav {
+    padding: 0px;
+}
+html[dir="rtl"] .main-menu-wrapper-two .nav-header-right > ul > li:first-child {
+    border-right: 1px solid #a6a6a6;
+    border-left: none;
+    }
+html[dir="rtl"] .pad-left-minus {
+    padding-left: 15px;
+    padding-right: 0px;
+}
+html[dir="rtl"] .main-menu-wrapper-two .nav-header-right > ul > li > ul {
+    right: auto;
+}
+html[dir="rtl"] .wel-band .top-right a {
+    float:right;
+	padding-right: 11px;
+}
+html[dir="rtl"] .wel-band .top-right a + a::before {
+    margin-right: 0px;
+    margin-left: 11px;
+}
+html[dir="rtl"] .wel-band .top-left .t-icon {
+    float: right;
+    margin-left: 0.4em;
+    margin-right: 0em;
+}
+html[dir="rtl"] .single-count-box .text-box {
+    padding-right: 1em;
+    padding-left: 0;
+}
+html[dir="rtl"] .rtl-pad-awsm-bottom{
+  padding-bottom:7em;
+  padding-top:2em;
+}
+html[dir="rtl"] .our-event-t-wrapper .media-body {
+    text-align: right;
+}
+html[dir="rtl"] .media-body {
+    text-align: right;
+}
+html[dir="rtl"] .rtl-pos{
+  text-align:right;
+}
+html[dir="rtl"] .get-in-touch-right i {
+    margin-right: 12px;
+    margin-left: 0;
+    float: left;
+}
+html[dir="rtl"] .subscribe-wrp .sub-input {
+        float: right !important;
+}
+html[dir="rtl"] .subscribe-wrp .sub-but {
+    text-align: left;
+}
+html[dir="rtl"] .widget-contact-list ul li i {
+    float: right;
+}
+html[dir="rtl"] .footer-bottom .copyright {
+    text-align: left;
+}
+html[dir="rtl"] .widget-contact-list ul li:first-child i {
+        padding-top: 6px;
+}
+html[dir="rtl"] .socials ul {
+    padding-right: 0;
+}
+html[dir="rtl"] ul.sub-menu li a {
+    padding-right: 20px !important;
+}
+html[dir="rtl"] .my-style li ul.sub-menu li a {
+    text-align: right;
+}
+html[dir="rtl"] .fullwidthbanner-container .fullwidthabanner {
+    direction: ltr;
+}
+html[dir="rtl"] .hotel-booking-search.search-sec {
+        position: initial;
+    }
+html[dir="rtl"] .our-res .vc_tta-tabs-container ul li.vc_active {
+        float: right;
+}
+html[dir="rtl"] .vc_tta.vc_tta-spacing-1 .vc_tta-tab {
+        float: right;
+}
+html[dir="rtl"] .zero-paw {
+     float: right;
+}
+html[dir="rtl"] .masters-pading{
+  float:right;
+}
+html[dir="rtl"] .our-res .single-tab-content ul {
+        padding-right: 0;
+}
+html[dir="rtl"] .our-res .single-tab-content ul li .fa {
+        margin-left: 5px;
+    }
+html[dir="rtl"] .vc_tta-panel-heading span {
+        float: right;
+}
+html[dir="rtl"] .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-right .vc_tta-controls-icon {
+  right:0;    
+  position: relative;
+}
+html[dir="rtl"] .rtl-adjustment.wpb_row{
+  float:none;
+}
+html[dir="rtl"] .test-bot .client_name ul {
+    float: right;
+}
+html[dir="rtl"] .our-pro-slider {
+    float: left;
+    margin: 0px 14px;
+}
+html[dir="rtl"] .have-query .wpcf7-form-control {
+    float: right;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+html[dir="rtl"] .resp-sp-width-980{
+    padding-right:0;
+}
+html[dir="rtl"] .top-left.col-lg-8{
+    width:57.667%;
+}
+
+
+
+html[dir="rtl"] .entry-content .hotel-booking-search input{
+  padding-right:49px;
+}
+html[dir="rtl"] .entry-content .hb-form-field, .entry-content .hotel-booking-search form button {
+     direction: ltr;
+}
+html[dir="rtl"] .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-right .vc_tta-controls-icon {
+        top: 47%;
+    
+}
+html[dir="rtl"] .room-wrapper .media-body h2 a::after {
+      left: -81px;
+}
+html[dir="rtl"] .rtl-adjustment-f-right{
+  float:right;
+}
+html[dir="rtl"] .borders-color ul.vc_tta-tabs-list li.vc_tta-tab{
+  float:left;
+}
+
+html[dir="rtl"] .table-form form .form-control {
+    text-align: right;
+}
+html[dir="rtl"] .sidebar-area .widget_title {
+    padding-right: 39px;
+}
+html[dir="rtl"] ul.widget-posts-list {
+    float: right;
+}
+html[dir="rtl"] .tagcloud {
+     padding-right: 39px;
+}
+html[dir="rtl"] .widget.widget_categories {
+    padding-right: 0;
+    }
+html[dir="rtl"] .search-form {
+    padding-right: 39px;
+}
+html[dir="rtl"] .hotel-booking-search.search-sec.search-sec-homet .overlay .border {
+    padding: 1.6em 1.5em;
+}
+ 
+ html[dir="rtl"] input[type="text"], input[type="email"]{
+    text-align:right;
+ }
+ html[dir="rtl"] body textarea.wpcf7-form-control{
+  text-align:right;
+ }
+ html[dir="rtl"] .carousel-prev i,.carousel-next i {
+    margin-right: 12px;
+}
+
+
+/* Responsive  rtl-css file for Resort theme*/
+
+
+
+@media(max-width: 980px) {
+html[dir="rtl"]  .carousel-prev, .carousel-next {
+     margin-left: 44.5%!important;
+    margin-right: -43.5%;
+}
+html[dir="rtl"] .footer-4 {
+    width: 48%;
+}
+html[dir="rtl"] .col-md-offset-nw.vc_col-sm-4 {
+    width: 37.7%!important;
+}
+html[dir="rtl"] .col-md-4.zero-paw {
+    width: 100%!important ;
+}
+html[dir="rtl"] .col-md-4.masters-pading {
+    width: 100%!important;
+    padding-right: 0;
+}
+html[dir="rtl"] .widget_tag_cloud{
+  float:right;
+}
+html[dir="rtl"] .ser-in-box {
+    width: 50%;
+    margin: 1% 1%;
+}
+}
+
+
+@media(max-width: 800px) {
+html[dir="rtl"] .carousel-next {
+    margin-left: 42.5% !important;
+    
+}
+html[dir="rtl"] .masters-pading {
+     padding: 0;
+}
+html[dir="rtl"] .spa-offer .img_holder .room-ad-cont {
+    width: 14vw;
+}
+html[dir="rtl"] .promo-content .col-sm-8 {
+    width: 79.667%;
+}
+html[dir="rtl"] .news-meta a {
+    padding-left: 6px;
+}
+html[dir="rtl"] .col-md-offset-nw.vc_col-sm-4 {
+    width: 44.7% !important;
+}
+html[dir="rtl"] .carousel-prev, .carousel-next {
+    margin-left: 46.5% !important;
+    }
+
+html[dir="rtl"] .carousel-prev {
+      margin-right: 43%!important;
+}
+}
+
+@media(max-width: 1024px) {
+html[dir="rtl"] .carousel-next {
+    margin-left: 42.5% !important;
+    margin-right: -43.5%;    
+}
+html[dir="rtl"] .col-md-4.zero-paw{
+  width: 43.333%;
+} 
+html[dir="rtl"] .fluid-know-area .service-promo {
+    width: 100%;
+}
+html[dir="rtl"] .fluid-know-area .work-image-ser {
+    width: 100%;
+}
+html[dir="rtl"] .col-md-4.masters-pading{
+  width:45.333%;
+}
+html[dir="rtl"] .testimonials-wrapper .item .test-bot .client_name h5 {
+    text-align: right;
+}
+html[dir="rtl"] .col-md-offset-nw.vc_col-sm-4 {
+    width: 33.7%!important;
+}
+html[dir="rtl"] .col-md-4.masters-pading {
+    width: 42.333%!important;
+}
+html[dir="rtl"] .awsm-creation.container {
+    width: auto;
+}
+html[dir="rtl"] .ser-in-box {
+    width: 100%;
+    margin: 1% 1%;
+    padding-bottom: 18px;
+}
+}
+
+@media(max-width: 640px) {
+html[dir="rtl"] .carousel-next {
+    margin-left: 40.5% !important;
+}
+html[dir="rtl"] .nasir-activity .this-inner {
+    width: 100%;
+    padding: 15px;
+}
+html[dir="rtl"] .col-md-offset-nw.vc_col-sm-4 {
+    width: 56.7% !important;
+}
+html[dir="rtl"] .rtl-pos-seting{
+  float:left;
+}
+html[dir="rtl"] .ser-in-box {
+    width: 100%;
+    margin: 1% 1%;
+    padding-bottom: 18px;
+}
+html[dir="rtl"] .spec-responsive-class.vc_col-sm-5 {
+    float: left;
+}
+html[dir="rtl"] .spec-responsive-class-right.vc_col-sm-7 {
+        clear: both;
+}
+
+}
+
+
+@media(max-width: 360px) {
+html[dir="rtl"] .carousel-next {
+    margin-left: 30.5% !important;
+}
+html[dir="rtl"] .get-touch-wrapper .touch-txt {
+     margin-top: 0;
+    padding-right: 15px;
+}
+html[dir="rtl"] .footer-4 {
+    width: 100% !important;
+}
+html[dir="rtl"] .promo-outer {
+    padding-top: 0;
+}
+html[dir="rtl"] .promo-content .col-sm-8 {
+    width: 100%;
+}
+
+html[dir="rtl"] .vc_tta.vc_general .vc_tta-panel-title > a {
+    padding-bottom: 27px;
+}
+html[dir="rtl"] .col-md-4.zero-paw {
+    width: 100%;
+}
+html[dir="rtl"] .col-md-4.masters-pading {
+    width: 100%;
+}
+html[dir="rtl"] .noright-pade {
+    padding-right: 16px !important;
+}
+html[dir="rtl"] .col-md-4.masters-pading {
+    width: 100% !important;
+}
+html[dir="rtl"] .col-md-offset-nw.vc_col-sm-4 {
+    width: 100% !important;
+}
+html[dir="rtl"] .entry-meta.post-page-meta {
+    padding: 1em 0 4.2em;
+    width: 100%;
+    margin: 0;
+}
+html[dir="rtl"] .carousel-prev {
+    margin-right: 40% !important;
+}
+
+}
+
+
+@media(max-width: 320px) {
+html[dir="rtl"] .carousel-next {
+    margin-left: 26.5% !important;
+}
+}
+
+@media(max-width: 768px) {
+html[dir="rtl"] .fluid-know-area .service-promo .promo-content {
+    padding: 5em 1em 2.6em 0;
+}
+}
+
+@media(max-width: 1280px) {
+html[dir="rtl"] .col-md-offset-nw.vc_col-sm-4 {
+    width: 29.7%;
+}
+html[dir="rtl"] .col-md-4.masters-pading {
+    width:37.333%;
+}
+html[dir="rtl"] .pad-left-minus.col-md-9 {
+    width: 73%;
+}
+html[dir="rtl"] .contact-info {
+        padding-top: 0;
+}
+html[dir="rtl"] .hotel-booking-search.search-sec.search-sec-homet .overlay .border {
+    padding: 1.6em 0em;
+}
+}
+
+
+@media(max-width: 480px) {
+html[dir="rtl"] .carousel-prev {
+    margin-right: 39% !important;
+}
+}
+
+html[dir="rtl"] .wpb_row {
+    margin-bottom: 0px;
+    float: left;
+}
+html[dir="rtl"] .testimonial-p .media-body a {
+    font: 600 1.0715em/1em "Open Sans", sans-serif;
+    letter-spacing: 0.3px;
+    color: #1f4d84 !important;
+    font-style: italic;
+    text-align: right;
+    display: block;
+}
+html[dir="rtl"] .room-t-wrapper .content {
+    text-align: right;
+}
+
+html[dir="rtl"] .hb_single_room_details{
+	text-align: right;
+}
+html[dir="rtl"] .hb_input_date_check.hasDatepicker{
+	padding-right:46px;
+}
+html[dir="rtl"] .room-t-wrapper .content.negative-padding {
+    right: 48px;
+    text-align: right;
+}
+html[dir="rtl"] .room-t-wrapper .content {
+	right: -48px;
+}
+html[dir="rtl"] .nroom-grid p {
+	text-align:right;
+}

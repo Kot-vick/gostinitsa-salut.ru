@@ -1,0 +1,23 @@
+tr.background_color {
+    background: #555555;
+    color: #ffffff;
+    font-weight: 700;
+}
+.background_color .redux_field_th {
+    padding: 8px;
+    color: #fff;
+	font-size: 1.3em;
+}
+.main_background h2 {
+    background: #888888;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+	background: #23282d;
+    border-color: #0073aa;
+    border-bottom: 3px solid #0073aa;
+}
+[class*=" icon-"], [class^=icon-]{
+	font: normal normal normal 14px/1 "Elusive-Icons"!important;
+}
